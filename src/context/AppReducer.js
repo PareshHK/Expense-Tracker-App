@@ -1,4 +1,4 @@
-export default (state, action) => {
+export const newFunction = (state, action) => {
 
     switch(action.type){
         case'DELETE_TRANSACTION':
@@ -20,3 +20,5 @@ export default (state, action) => {
             
     }
 }
+
+export default newFunction
